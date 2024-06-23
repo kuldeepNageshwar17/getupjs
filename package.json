@@ -1,0 +1,18 @@
+{
+  "name": "getupjs",
+  "version": "1.0.0",
+  "description": "CLI tool to create a React project with Vite, Jest, and Azure DevOps pipeline",
+  "main": "getupjs.js",
+  "bin": {
+    "getupjs": "./getupjs.js"
+  },
+  "scripts": {
+    "start": "node getupjs.js"
+  },
+  "author": "Kuldeep Nagehwar",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "jsonfile": "^6.1.0"
+  }
+}
